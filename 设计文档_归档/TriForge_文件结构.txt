@@ -1,0 +1,48 @@
+D:\Project\{项目名}\
+├── backend\                           # IDE 项目（Spring Boot）
+├── frontend\                          # IDE 项目（Vue）
+├── database\                          # SQL 脚本（DataGrip）
+│
+├── _tri\                              # TriForge 心智空间
+│   ├── agents\                        # Agent 提示词
+│   │   ├── 总理_项目总控.md           # 主控 Agent
+│   │   ├── 指南Agent.md               # 体系向导（平行）
+│   │   ├── product-line\              # 产品线
+│   │   │   ├── 产品经理.md
+│   │   │   ├── 需求分析师.md
+│   │   │   ├── 竞品分析师.md
+│   │   │   ├── 用户研究员.md
+│   │   │   ├── 功能架构师.md
+│   │   │   └── PRD撰写师.md
+│   │   ├── design-line\               # 设计线
+│   │   │   └── 设计师.md
+│   │   └── tech-line\                 # 技术线（含测试）
+│   │       ├── 技术经理.md
+│   │       ├── 前端工程师.md
+│   │       ├── 后端工程师.md
+│   │       ├── 数据库工程师.md
+│   │       └── 测试工程师.md
+│   │
+│   ├── memory\                        # 项目记忆（共享上下文）
+│   │   ├── PROJECT_BRIEF.md           # 产品背景/定位/约束
+│   │   ├── PROJECT_MEMORY.md          # 项目进度
+│   │   ├── TECH_DECISIONS.md          # 技术决策（含对冲结果）
+│   │   ├── TASK_QUEUE.md              # 任务队列
+│   │   └── 环境与约定说明.md          # 开发环境配置（模板）
+│   │
+│   ├── output\                        # 各线产出物
+│   │   ├── product\                   # 产品线（01~08）
+│   │   ├── design\                    # 设计线（01~04）
+│   │   ├── tech\                      # 技术线（01~03）
+│   │   └── test\                      # 验收（01~02）
+│   │
+│   └── TriForge_体系说明.md           # 体系总纲
+│   └── 提示词编写计划书.md            # 编写执行记录
+│
+└── templates\                         # 可复用模板
+    ├── PRD_TEMPLATE.md
+    ├── 竞品分析_TEMPLATE.md
+    ├── 设计系统_TEMPLATE.md
+    ├── 技术方案_TEMPLATE.md
+    ├── 测试用例_TEMPLATE.md
+    └── 环境与约定_TEMPLATE.md

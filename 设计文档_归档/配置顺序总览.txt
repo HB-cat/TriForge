@@ -1,0 +1,23 @@
+【主控层】
+  Step 1 → 总理 Agent（P0）+ 指南 Agent（P0，可选）
+
+【产品线】
+  Step 2 → 产品经理 Agent（P1）
+  Step 2a → 需求分析师 Agent
+  Step 2b → 竞品分析师 Agent
+  Step 2c → 用户研究员 Agent
+  Step 2d → 功能架构师 Agent
+  Step 2e → PRD 撰写师 Agent
+
+【设计线 + 技术线】（PRD 产出后并行）
+  Step 3a → 设计师 Agent（P2）
+  Step 3b → 技术经理 Agent（P2）
+
+【技术执行】（按需）
+  Step 4a → 前端工程师 Agent
+  Step 4b → 后端工程师 Agent
+  Step 4c → 数据库工程师 Agent
+  Step 4d → 测试 Agent（归技术经理管辖）
+
+【资产沉淀】
+  Step 5 → 模板沉淀机制（项目结束后自动触发）

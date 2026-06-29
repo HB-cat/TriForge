@@ -1,0 +1,29 @@
+# IDE
+.idea/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Build
+*.jar
+*.war
+target/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDE project directories are template placeholders, keep them
+# backend/, frontend/, database/ 是项目占位目录，保留不上传
