@@ -86,18 +86,16 @@ Sub Agent（干活 → 向你汇报 → 你回总理更新进度）
 
 ## 快速开始
 
-### 方式一：npm（推荐）
+### 从 GitHub 模板创建
+
+1. 打开本仓库页面，点击绿色的 **"Use this template"** 按钮
+2. 输入你的项目名称，点击 **"Create repository from template"**
+3. 将新仓库克隆到本地：
 
 ```bash
-npx triforge init my-project
-cd my-project
+git clone git@github.com:你的用户名/你的项目名.git
+cd 你的项目名
 ```
-
-### 方式二：从 GitHub 模板
-
-1. 点击本仓库 "Use this template" 按钮
-2. 创建你的项目仓库
-3. `git clone` 到本地
 
 ### 初始化后
 
@@ -166,9 +164,8 @@ cd my-project
 
 ## 分发
 
-- **npm**: `npx triforge init my-project`
-- **GitHub**: 使用本模板仓库创建新项目
-- **手动**: 复制 `_tri/` 和 `templates/` 到项目根目录
+- **GitHub 模板**：点击本仓库 "Use this template" 创建新项目
+- **手动**：复制 `_tri/` 和 `templates/` 到项目根目录
 
 ---
 
